@@ -1,0 +1,54 @@
+.dunkin-store-custom {
+    background: #e89f14 url(../images/global/subpages/dunkin-store-bg.png) repeat-x top;
+}
+
+.contact-options-custom a {
+
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "frankfurterregular";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 16px;
+    margin: 0 10px 10px 0;
+    padding: 8px 15px 8px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 20
+  }
+
+
+.description-heading-custom {
+    color: #fff;
+    font-family: "maven_probold";
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.contact-options-custom a {
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "frankfurterregular";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 16px;
+    margin: -8px 10px 10px 0;
+    padding: 8px 2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.new-custom{
+  padding-top: 9px;
+}
+
+.intro-custom{
+  padding: 0 0 0 5px
+}

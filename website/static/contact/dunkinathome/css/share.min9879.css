@@ -1,0 +1,306 @@
+#close-button {
+    position: absolute;
+    top: 16px;
+    left: 11px;
+    cursor: pointer
+}
+
+#postcard-image {
+    background-repeat: no-repeat !important;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 6px 1px #999;
+    height: 149px;
+    left: 8%;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    /*transform: rotate(355deg);*/
+    width: 221px;
+}
+
+#facebook-post {
+    position: absolute;
+    top: 367px;
+    left: 235px;
+    cursor: pointer;
+    display: none
+}
+
+#facebook-posting {
+    position: absolute;
+    top: 367px;
+    left: 68px;
+    display: none
+}
+
+#facebook-success {
+    position: absolute;
+    top: 367px;
+    left: 75px;
+    cursor: pointer;
+    display: none
+}
+
+#tweet-button {
+    position: absolute;
+    top: 367px;
+    left: 235px;
+    cursor: pointer;
+    display: none
+}
+
+#stamp {
+    position: absolute;
+    top: 27px;
+    left: 493px;
+    width: 132px;
+    height: 118px
+}
+
+#back-text {
+    position: absolute;
+    top: 215px;
+    left: 372px
+}
+
+#vertical-divider {
+    position: absolute;
+    top: 30px;
+    left: 335px
+}
+
+#user-message {
+    top: 230px;
+    left: 26px;
+    position: absolute;
+    width: 280px;
+    height: 121px
+}
+
+#panel-container {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    display: none
+}
+
+.panel {
+    position: absolute;
+    width: 658px;
+    height: 448px;
+    -webkit-perspective: 900px;
+    -moz-perspective: 900px;
+    -o-perspective: 900px;
+    -ms-perspective: 900px;
+    perspective: 900px;
+    top: 50%;
+    left: 50%;
+    margin: -221px 0 0 -327px
+}
+
+.no-csstransforms3d .panel {
+    display: block
+}
+
+.csstransforms3d .panel.scaleup {
+    -webkit-transform: scale(.5, .5);
+    -moz-transform: scale(.5, .5);
+    -ms-transform: scale(.5, .5);
+    -o-transform: scale(.5, .5);
+    transform: scale(.5, .5);
+    opacity: 0;
+    display: block;
+    -webkit-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) forwards;
+    -moz-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) forwards;
+    -o-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) forwards;
+    -ms-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) forwards;
+    animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) forwards
+}
+
+.csstransforms3d .panel.scaledown {
+    -webkit-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) reverse;
+    -moz-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) reverse;
+    -o-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) reverse;
+    -ms-animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) reverse;
+    animation: scale-in 250ms cubic-bezier(0, 0, .2, 1) reverse;
+    -webkit-transform: scale(.5, .5);
+    -moz-transform: scale(.5, .5);
+    -o-transform: scale(.5, .5);
+    -ms-transform: scale(.5, .5);
+    transform: scale(.5, .5);
+    opacity: 0
+}
+
+#panel-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    filter: alpha(opacity=30);
+    opacity: .3
+}
+
+.panel #front {
+    z-index: 9999999;
+    background: url('http://www.dunkinathome.com/website/static/dunkinathome/images/share/coconutFront.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 658px;
+    height: 448px;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -o-transform: rotateX(0deg) rotateY(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.panel #front.postcard-seasonal {
+    width: 652px;
+    height: 442px
+}
+
+.no-csstransforms3d .panel.flip #front {
+    display: none
+}
+
+.csstransforms3d .panel.flip #front {
+    z-index: 5;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+}
+
+.panel #back {
+    z-index: 4;
+    background: url("http://www.dunkinathome.com/website/static/dunkinathome/images/share/postcardbg.png");
+    width: 658px;
+    height: 448px;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.panel.flip #back {
+    z-index: 6;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -o-transform: rotateX(0deg) rotateY(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg)
+}
+
+@-webkit-keyframes scale-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.5, .5)
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(1.1, 1.1)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1)
+    }
+}
+
+@-moz-keyframes scale-in {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(.5, .5)
+    }
+    60% {
+        opacity: 1;
+        -moz-transform: scale(1.1, 1.1)
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1, 1)
+    }
+}
+
+@-o-keyframes scale-in {
+    0% {
+        opacity: 0;
+        -o-transform: scale(.5, .5)
+    }
+    60% {
+        opacity: 1;
+        -o-transform: scale(1.1, 1.1)
+    }
+    100% {
+        opacity: 1;
+        -o-transform: scale(1, 1)
+    }
+}
+
+@-ms-keyframes scale-in {
+    0% {
+        opacity: 0;
+        -ms-transform: scale(.5, .5)
+    }
+    60% {
+        opacity: 1;
+        -ms-transform: scale(1.1, 1.1)
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: scale(1, 1)
+    }
+}
+
+@keyframes scale-in {
+    0% {
+        opacity: 0;
+        transform: scale(.5, .5)
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.1, 1.1)
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1, 1)
+    }
+}

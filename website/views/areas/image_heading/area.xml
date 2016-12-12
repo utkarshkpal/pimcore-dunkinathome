@@ -1,0 +1,7 @@
+<zend-config>
+    <id>image_heading</id>
+    <name>image_heading</name>
+    <description/>
+    <author>pimcore.org</author>
+    <version>1.0</version>
+</zend-config>

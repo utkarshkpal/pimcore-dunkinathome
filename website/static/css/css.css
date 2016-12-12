@@ -1,0 +1,1035 @@
+@font-face {
+	font-family: 'frankfurterregular';
+	src: url('font/ufonts.com_frankfurter-plain-webfont.eot');
+	src: url('font/ufonts.com_frankfurter-plain-webfont.eot?#iefix') format('embedded-opentype'), url('font/ufonts.com_frankfurter-plain-webfont.woff2') format('woff2'), url('font/ufonts.com_frankfurter-plain-webfont.woff') format('woff'), url('font/ufonts.com_frankfurter-plain-webfont.ttf') format('truetype'), url('font/ufonts.com_frankfurter-plain-webfont.svg#frankfurterregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'maven_probold';
+	src: url('font/maven_pro_bold-webfont-webfont.eot');
+	src: url('font/maven_pro_bold-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('font/maven_pro_bold-webfont-webfont.woff2') format('woff2'), url('font/maven_pro_bold-webfont-webfont.woff') format('woff'), url('font/maven_pro_bold-webfont-webfont.ttf') format('truetype'), url('font/maven_pro_bold-webfont-webfont.svg#maven_probold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'lilita_oneregular';
+	src: url('font/lilitaone-regular-webfont.eot');
+	src: url('font/lilitaone-regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('font/lilitaone-regular-webfont.html') format('woff'), url('font/lilitaone-regular-webfont.ttf') format('truetype'), url('font/lilitaone-regular-webfont.svg#lilita_oneregular') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'FrankfurterMediumStd';
+	src: url('font/frankfurtermediumstd.eot');
+	src: url('font/frankfurtermediumstdd41d.eot?#iefix') format('eot'), url('font/frankfurtermediumstd.html') format('woff'), url('font/frankfurtermediumstd.ttf') format('truetype'), url('font/frankfurtermediumstd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'playballregular';
+	src: url('font/playball-regular-webfont.eot');
+	src: url('font/playball-regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('font/playball-regular-webfont.html') format('woff'), url('font/playball-regular-webfont.ttf') format('truetype'), url('font/playball-regular-webfont.svg#playballregular') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Neutra';
+	src: url('font/neutra_text_tf_alt_bold-webfont.eot');
+	src: url('font/neutra_text_tf_alt_bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('font/neutra_text_tf_alt_bold-webfont.html') format('woff'), url('font/neutra_text_tf_alt_bold-webfont.ttf') format('truetype'), url('font/neutra_text_tf_alt_bold-webfont.svg#neutra_text_tfbold_alt') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'NeutraTextbook';
+	src: url('font/neutra_text_sc-webfont.eot');
+	src: url('font/neutra_text_sc-webfontd41d.eot?#iefix') format('embedded-opentype'), url('font/neutra_text_sc-webfont.html') format('woff'), url('font/neutra_text_sc-webfont.ttf') format('truetype'), url('font/neutra_text_sc-webfont.svg#neutra_textbook_sc') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+a {
+	cursor:pointer;
+	outline: none;
+	border: none;
+}
+a img, span img, img , a span{
+	outline: none;
+	border: none;
+	text-decoration:none;
+}
+
+.mobile-view {
+	display: none !important;
+}
+.floatL {
+	float: left;
+}
+.floatR {
+	float: right;
+}
+.nav-right {
+	float: right !important;
+}
+input {
+	border: none;
+	outline: none;
+}
+.clear {
+	clear: both;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/************
+			Layouts
+				****************/
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+	float: left;
+}
+.col12 {
+	width: 100%  !important;
+}
+.col11 {
+	width: 91.66666667%  !important;
+}
+.col10 {
+	width: 83.33333333%  !important;
+}
+.col9 {
+	width: 72%  !important;
+}
+.col8 {
+	width: 66.66666667%  !important;
+}
+.col7 {
+	width: 61.33333333% !important;
+}
+.col6 {
+	width: 50%  !important;
+}
+.col5 {
+	width: 34.66666667%  !important;
+}
+.col4 {
+	width: 33.33333333%  !important;
+}
+.col3 {
+	width: 25%  !important;
+}
+.col2 {
+	width: 16.66666667%  !important;
+}
+.col1 {
+	width: 8.33333333%  !important;
+}
+.colMax {
+	width: 68%;
+}
+.colMin {
+}
+.pull-left10{ margin-left:10%;}
+/*********
+		CONTAINER
+				***********/
+.wrapper {
+	border: 1px solid #000;
+	border-radius: 15px;
+	margin: 0 auto;
+	padding: 5px;
+	width: 1000px;
+}
+.content-container {
+	min-height: 470px;
+	padding: 20px 15px 10px 15px;
+	border-radius: 10px;
+	position: relative;
+	text-align: left;
+}
+.home-container {
+	margin: auto;
+	min-height: auto;
+	width: 1196px;
+}
+.scroll-container{ position:static;}
+.mainProductBg {
+	background: #fff;
+	background: url(../images/products/global/yellow-bg.png) repeat-x, -moz-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/yellow-bg.png) repeat-x, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e7dedf));
+	background: url(../images/products/global/yellow-bg.png) repeat-x, -webkit-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/yellow-bg.png) repeat-x, -o-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/yellow-bg.png) repeat-x, -ms-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/yellow-bg.png) repeat-x, linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+}
+.roastBg {
+	background: url(../images/products/global/roasts_bg.jpg) no-repeat, -moz-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/roasts_bg.jpg) no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e7dedf));
+	background: url(../images/products/global/roasts_bg.jpg) no-repeat, -webkit-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/roasts_bg.jpg) no-repeat, -o-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/roasts_bg.jpg) no-repeat, -ms-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/roasts_bg.jpg) no-repeat, linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+}
+.bakeryBg {
+	background: url(../images/products/global/bakery_bg.png) no-repeat, -moz-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/bakery_bg.png) no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e7dedf));
+	background: url(../images/products/global/bakery_bg.png) no-repeat, -webkit-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/bakery_bg.png) no-repeat, -o-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/bakery_bg.png) no-repeat, -ms-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/bakery_bg.png) no-repeat, linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+}
+.flavorsBg {
+	background: url(../images/products/global/flavors_bg.png) no-repeat, -moz-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/flavors_bg.png) no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e7dedf));
+	background: url(../images/products/global/flavors_bg.png) no-repeat, -webkit-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/flavors_bg.png) no-repeat, -o-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/flavors_bg.png) no-repeat, -ms-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/flavors_bg.png) no-repeat, linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+}
+.kcupsBg {
+	background: url(../images/products/global/kcups_bg.png) no-repeat, -moz-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/kcups_bg.png) no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e7dedf));
+	background: url(../images/products/global/kcups_bg.png) no-repeat, -webkit-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/kcups_bg.png) no-repeat, -o-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/kcups_bg.png) no-repeat, -ms-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/kcups_bg.png) no-repeat, linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+}
+.seasonalBg {
+	background: url(../images/products/global/seasonal_bg.png) no-repeat, -moz-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/seasonal_bg.png) no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#e7dedf));
+	background: url(../images/products/global/seasonal_bg.png) no-repeat, -webkit-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/seasonal_bg.png) no-repeat, -o-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/seasonal_bg.png) no-repeat, -ms-linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+	background: url(../images/products/global/seasonal_bg.png) no-repeat, linear-gradient(top, #ffffff 0%, #e7dedf 100%);
+}
+/*************
+			Elements
+					****************/
+
+
+.introduction {
+	padding: 16px 22px 0;
+}
+.introduction-heading {
+	font-family: "frankfurterregular";
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #f04895;
+	paint-order: stroke;
+	stroke: #fff;
+	stroke-opacity: 1;
+	fill: #f04895;
+	fill-opacity: 1;
+	stroke-width: 4px;
+}
+.introduction-heading-small {
+	font-family: "frankfurterregular";
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #f04895;
+	paint-order: stroke;
+	stroke: #fff;
+	stroke-opacity: 1;
+	fill: #f04895;
+	fill-opacity: 1;
+	stroke-width: 4px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.introduction-heading {
+	stroke-width: 3px;
+}
+}
+svg {
+	height: 40px;
+	display: block;/*left: 17px;
+    position: absolute;
+    top: 47px;*/
+}
+.introduction p {
+	color: #532504;
+	font-size: 12px;
+	 line-height: 1.2727em;
+	padding-left: 3px;
+}
+.description {
+	padding: 0px 0px;
+	display: table;
+	width: 100%;
+}
+.description p {
+
+	font-size: 11px;
+	 line-height: 1.2727em;
+
+}
+.product {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.product li {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.product li a{ text-decoration:none;}
+.product .product-image {
+	display: block;
+	margin: auto;
+}
+.product .product-button {
+	background: url(../images/products/buttons/button_orange-bg.png) no-repeat;
+	color: #fff;
+	cursor: pointer;
+	display: table-cell;
+	font-family: "maven_probold";
+	font-size: 13px;
+	font-weight: bold;
+	height: 64px;
+	margin: 0 auto;
+	padding: 0px 20px;
+	text-transform: uppercase;
+	width: 118px;
+	vertical-align: middle;
+	text-align:center;
+}
+.product .product-button.big {
+	width: 140px;
+	padding: 0px 10px;
+}
+.product li a .product-button:hover {
+	background-position: 0 -62px;
+}
+.watch_commercial {
+	position: absolute;
+	right: -20px;
+	top: 20px;
+}
+.btnback {
+	position: absolute;
+	left: -18px;
+	top: 15px;
+	background: url(../images/products/buttons/button_back-bg.png) no-repeat;
+	width: 71px;
+	height: 84px;
+}
+.btnback:hover {
+	background-position: 0 -83px;
+}
+.coffee-store-finder {
+	right: -23px;
+	font-size:10px;
+}
+.coffee-store-finder .search {
+	outline: none;
+	border: none;
+	background: url(../images/products/buttons/button_search.png) no-repeat;
+	padding: 5px 0px;
+	width: 78px;
+	cursor:pointer;
+}
+/********
+		Product
+			*************/
+.productBg .introduction {
+	padding: 0 20px;
+}
+.productBg .introduction-heading {
+	text-align: center;
+	color: #fff;
+	letter-spacing: 2px;
+	/*font-size: 34px;*/
+	padding-left: 10px;
+}
+.productBg p {
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.main-product .introduction p{ font-size:20px;}
+.main-product .introduction p span{font-size:22px; display: block;
+	font-weight: bold;
+	margin-top: 10px;}
+/*********
+		SUB Product
+				*************/
+
+.productDetail {
+}
+.img-placeholder {
+	bottom: -18%;
+	left: -1%;
+	position: absolute;
+}
+.product-detail-description {
+	padding: 40px 0 0 0;
+}
+.product-detail-description h2 {
+	font-family: "neutra";
+	font-size: 24px;
+	color: #fff;
+	display: inline-block;
+
+	margin-top: 20px;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.product-image {
+	display: inline-block;
+	text-align: right;
+}
+.product-image a {
+	padding-left: 10px;
+}
+.product-detail-description p {
+	color: #532504;
+	text-align: left;
+}
+
+/************
+			starred
+				*************/
+
+.bv-rating-stars {font-size: 12px;text-decoration: none; color:#000; font-weight:normal; display:block;}
+ .bv-rating-stars span{color: #f88119; font-size: 20px ;vertical-align:sub;}
+ .bv-rating-stars.on span{ color:#e048a0;}
+
+
+/**********
+ 		CALLOUT CONTENT
+					**************/
+
+
+.calloutcontent {
+	margin: 10px auto;
+	width: 1015px;
+}
+.calloutcontent a {
+	display: inline-block;
+	margin: 10px 0;
+	float: left;
+}
+.calloutcontent a:nth-child(even) {
+	float: right;
+}
+/********* SEPARATOR IN FOOTER ************/
+.footerC {
+	width: 1015px;
+    padding: 30px 0 10px;
+	margin:auto;
+	font-size: 9px;
+}
+#footercopy {
+	margin-left: 0px;
+
+	float:left;
+	text-align:left;
+}
+#footercopy ul{ margin-bottom:8px;}
+#footercopy li {
+    display: inline;
+    font-weight: bold;
+	font-size:10px;
+}
+
+
+#footercopy a {
+    text-decoration: none;
+}
+#footer-logo {
+	margin-right: 0px;
+	float: right;
+    top: 0;
+}
+#footercopy li:after {
+	content: "\2022";
+	margin: 0 8px;
+}
+#footercopy li:last-child:after {
+	content: "";
+	margin: 0;
+}
+
+#footer-copy a {
+    text-decoration: none;
+}
+
+/*************
+			dunkin store
+					**************/
+
+.dunkin-store {
+	background: #e89f14 url(../images/global/subpages/dunkin-store-bg.png) repeat-x top;
+}
+.dunkin-store .introduction {
+	padding: 0 5px;
+}
+.dunkin-store h1 {
+	color: #f94696;
+	font-family: "lilita_oneregular";
+	/*font-size: 22px;*/
+	text-shadow: -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;
+	text-transform: uppercase;
+}
+.dunkin-store p {
+	/*font-size: 1.1em;*/
+	line-height: 1.2727em;
+}
+.dunkin-store .description {
+	/* font-size: 1em;*/
+	padding: 5px 5px 0;
+}
+.dunkin-store .description .step {
+	float: left;
+	vertical-align: top;
+}
+.step .description-heading {
+	font-size: 12px;
+	color:#66361f;
+	font-family:arial;
+	text-transform:none;
+}
+.step .description-heading span {
+	display: inline-block;
+	float: left;
+	margin-top: -5px;
+	padding-right: 8px;
+}
+.dunkin-store .product {
+	text-align: left;
+	clear: both;
+	display: table-row;
+}
+.dunkin-store .product li {
+	display: inline-block;
+	margin-right: 10px;
+	text-align: center;
+	vertical-align: top;
+	margin-bottom: 40px;
+}
+.dunkin-store .product li span {
+	display: inline-block;
+	margin: -10px auto auto;
+	/*font-size: 1em;*/
+	width: 65px;
+	vertical-align: top;
+}
+.dunkin-store .product li span label{  display: block;
+    font-size: 10px;
+    line-height: 12px;}
+.dunkin-store .product img {
+	display: block;
+	margin: auto;
+}
+.dunkin-store .product span input[type=radio] {
+	display: block;
+	margin: auto;
+}
+.dunkin-store .product font {
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+ font-size:11px;}
+.callout-container {
+	background: url(../images/coffees/1.x_sub2_bg.png) no-repeat;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size:10px;
+	padding: 15px 13px 0;
+	margin-left: 12%;
+	width: 165px;
+	height: 92px;
+}
+.callout-container p {
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+.callout-container .zip {
+	float: left;
+	width: 50px;
+	/*font-size: 12px;*/
+}
+.callout-container .search {
+	float: right;
+	margin: 3px 3px 0;
+	width: 35%;
+	background: url(../images/coffees/1.x_sub2_cta.png) no-repeat;
+}
+/************
+		how to brew
+				************/
+.sub-heading {
+	font-family: "maven_probold";
+	font-size: 18px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.tool {
+}
+.cup-calculator {
+	background: rgba(0, 0, 0, 0) url("../images/brew/Calc_bg.png") no-repeat scroll 0 0;
+	position: relative;
+	right: -40px;
+	padding: 25px 20px 16px;
+	color: #fff;
+	-webkit-box-shadow: 12px 11px 6px -7px rgba(0,0,0,.4);
+	box-shadow: 12px 11px 6px -7px rgba(0,0,0,.4);
+	font-size: 12px;
+}
+.cup-calculator h3 {
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-family: "lilita_oneregular";
+}
+.cup-calculator p {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.cup-calculator .cups-input {
+	display: block;
+}
+.cup-calculator .cups-input input[type="text"] {
+	background-color: #f86bb7;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px #66361f inset;
+	color: #fff;
+	font-family: "lilita_oneregular";
+	font-size: 28px;
+	height: 33px;
+	margin-right: 10px;
+	padding: 0 10px 0 0;
+	text-align: right;
+	width: 62px;
+}
+.cup-calculator .cups-input label {
+	display: inline-block;
+	font-size: 24px;
+	vertical-align: bottom;
+	font-family: "lilita_oneregular";
+}
+.cup-calculator .cups-input label font {
+	display: block;
+	font-size: 13.5px;
+	padding-top: 0;
+}
+.cup-calculator .textbox:first-child {
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	font-size: 24px;
+	min-width: 60px;
+	padding: 0 5px 2px;
+	text-align: right;
+}
+.measurement-label {
+	font-family: "lilita_oneregular";
+	display: inline-block;
+}
+.ingredient {
+	display: inline-block;
+	width: 60px;
+	margin-left: 45px;
+}
+.ingredient.grounds {
+	background: rgba(0, 0, 0, 0) url("../images/brew/grounds_in_spoon.png") no-repeat scroll left top;
+	padding-top: 17px;
+	font-family: "lilita_oneregular";
+}
+.ingredient.water {
+	background: rgba(0, 0, 0, 0) url("../images/brew/waterdrop.png") no-repeat scroll -5px top;
+	padding-top: 24px;
+	font-family: "lilita_oneregular";
+}
+.full-container {
+	border-top: 1px solid #532504;
+	clear: both;
+	margin: 20px auto 0;
+	padding: 20px 0;
+}
+.full-container h2{font-family: Neutra, MavenProBold;
+	font-size: 17px;
+	margin-bottom: 10px;
+	text-transform: uppercase; color:#fff;}
+.full-container img {
+	max-width: 100%;
+	height: 100%;
+}
+/**********
+		Promotion
+			**************/
+
+.promotion {
+}
+.promotion li {
+	clear: both;
+	margin: 10px 0 20px 20px;
+	overflow: auto;
+}
+.promotion .promotional-image {
+	float: left;
+	width: 38%;
+	margin-right: 2%;
+}
+.promotion .promotion-text {
+	float: left;
+	width: 60%;
+	padding-top: 2%;
+}
+.promotion .promotion-text h2 {
+	color: #fff;
+	font-family: Neutra, MavenProBold;
+	font-size: 17px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.promotion .promotion-text p {
+	margin: 7px 0 14px;
+	font-size: 12px;
+}
+/**********
+		about us
+			************/
+
+.aboutus {
+	background: url(../images/products/global/about-bg.jpg) no-repeat;
+	color: #fff;
+}
+.aboutus .introduction {
+	padding: 0 5px;
+}
+.aboutus p, .aboutus a {
+
+	color: #fff;
+}
+.about.promotion .promotional-image {
+	display: table-cell;
+	width: 38%;
+	float: none;
+}
+.about.promotion .promotion-text {
+	display: table-cell;
+	padding-left: 2%;
+	width: 60%;
+	vertical-align: middle;
+	float: none;
+	padding-top: 0;
+}
+.full-container.about {
+	border-top-color: #fff;
+	 padding: 20px 0 0;
+}
+.full-container.about p:last-child {
+	margin-bottom: 0;
+}
+/**********
+		commercial
+			************/
+.commercial li {
+	clear: both;
+	margin: 10px 0 20px 0;
+	overflow: auto;
+	padding:0 2px 0 0;
+}
+.commercial .commercial-video {
+	width: 63%;
+	float: left;
+	border: 1px solid #fff;
+}
+.commercial .commercial-text {
+	padding-left: 2%;
+	width: 30%;
+	vertical-align: middle;
+	float: left;
+	padding-top: 0;
+}
+.commercial .commercial-text h2 {
+	font-family: Neutra, MavenProBold;
+	font-size: 18px;
+	font-weight:bold;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.commercial .commercial-text p {
+	margin: 7px 0 20px 0;
+	font-size:12px;
+}
+.related-videos {
+	float: none;
+	padding: 10px 0;
+}
+.related-videos ul {
+	float: none;
+	height: auto;
+	padding: 0px 0;
+	overflw: auto;
+}
+.related-videos ul li {
+	float: left;
+	padding: 0px 0;
+}
+.related-videos img {
+	max-width: 100%;
+	height: auto;
+}
+.related-videos li:hover .video-name-container {
+	bottom: 4px;
+}
+.related-videos ul li .video-name-container {
+	background: #fff none repeat scroll 0 0;
+	bottom: -60px;
+	left: 0;
+	padding: 10px 0;
+	position: absolute;
+	text-align: center;
+	transition: all 0.5s ease-in-out 0s;
+	width: 100%;
+}
+/**********
+		sign up
+			*********/
+.signup .introduction {
+	padding: 0 5px;
+}
+
+#ifrm-sub {
+	width: 100%;
+	height: 400px;
+}
+/**********
+		accordian
+
+		***********/
+	.accordian ul{
+			list-style-type: disc;
+		}
+.accordian {
+	font-size:10px;
+}
+.accordian h3 {
+	background: #fff url("../images/products/global/arrow-left.png") no-repeat scroll 2% center;
+	border: 1px solid #d3d3d3;
+	color: #555555;
+	border-radius: 4px;
+	padding: 6px 30px;
+	font-family: Verdana,Arial,sans-serif;
+    /*font-size: 1.3em;*/
+	font-weight: normal;
+	margin-bottom: 3px;
+	cursor:pointer;
+}
+ .accordian h3.tactive {
+	 background: #fff url("../images/products/global/arrow-down.png") no-repeat scroll 2% center;
+	color:#000;
+}
+ .accordian h3:hover{color:#000;}
+.accordian div {
+	background: #fff;
+	border: 1px solid #d3d3d3;
+	padding: 10px 30px;
+	font-family: Verdana,Arial,sans-serif;
+    /*font-size: 1.1em;*/
+	color: #555555;
+	border-radius: 0 0 4px 4px;
+	margin-top: -7px;
+	display: none;
+	margin-bottom: 3px;
+	transition: display 0.5s ease-in-out;
+}
+.accordian h3:hover + div {
+}
+/********
+		FAQ
+		*************/
+.bg-Image {
+	background: #e89f14 url(../images/products/global/faq.png) no-repeat;
+}
+#faqs h2 {
+    display:block;
+    font-size: 12px;
+	line-height:18px;
+}
+
+.faq .introduction {
+	padding: 0 5px;
+}
+/********
+		contact
+		*************/
+
+.contact .introduction, .contact .description {
+	padding: 0 5px;
+}
+
+.description-heading {
+	font-size: 15px;
+	color: #fff;
+	font-family: 'maven_probold';
+	text-transform: uppercase;
+}
+.contact-form {
+
+}
+.contact-form p {
+	clear: both;
+}
+.contact-form p span{ /*font-size:inherit;*/ font-weight:inherit;}
+.contact-form p .label {
+	display: block;
+	font-weight: bold;
+}
+.contact-form p .label font {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 3px;
+}
+.contact-form p .inputs {
+	padding-left: 40px;
+	display: block;
+}
+.contact-form p input[type=radio] {
+	margin: 5px 5px 5px 0;
+}
+
+
+
+.contact-info {
+    font-size: 12px;
+}
+/**************
+				sign up
+					****************/
+#ifrm-unsub {
+	width: 100%;
+	height: 165px;
+}
+/***********
+		Slider
+			****************/
+
+
+.rslides {
+	margin: 0 auto 0px;
+}
+.slider {
+	position: relative;
+	border-bottom: 3px solid #fa8325;
+	border-top: 3px solid #fa8325;
+}
+.rslides_tabs {
+	bottom: 2%;
+	/*font-size: 18px;*/
+	list-style: outside none none;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 5;
+}
+.rslides_tabs li {
+	background-color: #fff;
+	border: 2px solid #fa8325;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	float: none;
+	margin-right: 5px;
+}
+.rslides_tabs li {
+	border-radius: 50%;
+	box-shadow: 0 0 20px #666;
+}
+.rslides_tabs li:last-of-type {
+	margin-right: 0;
+}
+.rslides_tabs li.rslides_here {
+	background-color: #fa8325;
+	cursor: default;
+}
+.rslides_tabs li.rslides_here a{color: #fa8325;}
+.rslides_tabs a {
+	 background: transparent none repeat scroll 0 0;
+
+    color: #fff;
+    display: inline-block;
+    font-size: 1px;
+    height: 12px;
+    left: 0;
+    line-height: 0;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    width: 12px;
+}
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+.share-container{ /* border: 1px solid #f00;*/
+    bottom: 42px;
+    height: 66px;
+    left: 105px;
+    position: absolute;
+    width: 100px;
+
+}
+.share-facebook, .share-twitter{  /*  border: 1px solid #000;*/
+    display: block;
+    float: left;
+    height: 66px;
+    width: 40px;}
+
+
+/******
+	popup
+		******/
+#buyOnlineLeavingGlobal{ margin:auto;}
+
+
+ .opener{ min-height:150px;}
+ #outbound-link, #close-reveal-modal{}
+ .reveal-modal{ margin:0; top:-999px; bottom:0; left:0; right:0; position:fixed; transition:all 0.3s ease-in; }
+ .reveal-modal-open{ visibility:visible; top:0;}
+
+
+/******************
+				sitemap
+					*****************/
+#site-map li {
+    font-size: 12px;}

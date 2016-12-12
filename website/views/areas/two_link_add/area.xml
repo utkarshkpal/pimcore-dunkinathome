@@ -1,0 +1,7 @@
+<zend-config>
+    <id>two_link_add</id>
+    <name>two_link_add</name>
+    <description/>
+    <author>pimcore.org</author>
+    <version>1.0</version>
+</zend-config>

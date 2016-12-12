@@ -1,0 +1,1078 @@
+#top-nav li.coffees1 a, #top-nav li.coffees1 a:hover {
+    background-image: none;
+    font-family: 'frankfurterregular';
+    font-size: 19px;
+    padding-top: 3px;
+    color: #e048a0;
+    text-transform: uppercase;
+    text-indent: 0;
+}
+.coffee-group-headline1 {
+    background-color: #501612;
+    color: #fff;
+    font-family: "frankfurterregular" !important;
+    font-size: 34px !important;
+    letter-spacing: 2px;
+    margin-left: 150px !important;
+    padding: 20px !important;
+    position: relative;
+    top: -20px;
+    width: 140px;
+    border: 3px solid #fff;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
+/*********
+      submenu
+                        **********/
+.sub-menu, .expand {
+    display: none;
+}
+.productSearch{ border:0; border-radius:0;  -webkit-appearance:none;}
+
+@media screen and (max-width:1200px) {
+.home-container {max-width:100%;}
+
+#ifrm-sub {
+    width: 100%;
+    height: 500px;
+}
+
+}
+@media screen and (max-width:1024px) {
+.wrapper, #container , .footer{max-width:960px;}
+.cup-calculator{ right:-39px; position:absolute; padding-bottom:12px;}
+
+.product li {margin:0;}
+.full-container{ margin-top:25px;} 
+.product-image a{ padding-left:5px;}
+.product-listing li{ max-width:150px;}
+.product-listing .product-image {
+    max-width: 100%;
+}
+.seasonal-main .product-listing .product-image {
+    max-width: 190px;
+}
+}
+@media screen and (max-width:1018px) {
+.footer ,.calloutcontent,
+.wrapper, #container {max-width:900px;}
+
+
+.related-videos ul li {
+    min-height: 180px;
+}
+.content-container{ background-position: right top; }
+.content-container.productBg{  background-size: contain !important;}
+.content-container.productBg.seasonal-main {
+    background-size: cover !important;
+}
+.content-container.white-bg-image {
+    background: rgba(0, 0, 0, 0) url("../images/signup/sample_email_imagefe50.png") no-repeat scroll 96% 33% / 33% auto;
+    color: #fff;
+}
+.accordian div {   word-wrap: break-word;}
+.calloutcontent a{ width:48%;}
+.footer{ padding: 4em 0 1em;}
+.footer-image{ top:-30px;}
+.ingredient{ margin-left:20px;}
+.cup-calculator{ right:-22px; position:relative; padding-bottom:16px;}
+.cup-calculator p , .cup-calculator i, .cup-calculator .cups-input{ padding-left:10px; display: block;}
+
+/*.product-image{float:right;}*/
+.product-image a{ padding-left:0;}
+.product-detail-description{ padding-top:20px;}
+
+.img-placeholder {left:-2%;}
+
+
+ #buyOnlineLeavingGlobal{width:100%;}
+
+
+    #buyOnlineLeavingGlobal{  background-image: url("../images/responsive/leavingDunkin.png");
+                              height: 215px;
+                              text-indent: -9999px;
+                              margin:auto;
+                              width: 300px;}
+
+    #outbound-link, #close-reveal-modal{ background:none; text-indent:0; top:145px;}
+    .reveal-modal{ margin:0; top:0; bottom:0; left:0; right:0;}
+    #outbound-link{ left:15px;}
+    #close-reveal-modal{ left:160px;}
+ 
+.bazarewrapper{width:920px;}
+}
+
+
+@media screen and (max-width:900px) {
+
+
+    html {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }	
+
+    body {
+        background: #eb7821 url(../images/responsive/bg_mobile.png) repeat-x scroll center -2px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        min-height: 480px;
+        overflow-x: hidden;
+        width: 100%;
+    }
+.fancybox-outer .transcript {
+	color: #66361f;
+	padding: 15px;
+	text-align: left;
+	font-size: 11px;
+	background: 0 0 #e7a513
+}
+
+.light-pink-bg,  .light-pink-bg a,
+.light-pink-bg-image,  .light-pink-bg-image a{color: #66361f ;}
+
+.seasonal .product-detail-description h2{ color: #fff;     font-size: 24px;} 
+.seasonal-main.productBg .product-description-text p ,
+.seasonal .description-scroll,
+.seasonal-main .product-description-text{color: #66361f ; font-weight:normal;}
+
+.transcript a {
+    color: #66361f;
+}
+
+.contact-options  a{
+
+font-size: 16px;
+line-height: 16px;
+padding: 8px 15px 6px;
+}
+.product li a, .product-listing li a{ text-decoration:none; display:block;}
+
+.error-messages, #age-error {
+    color: #f00;}
+
+    .mobile-view {
+        display: block !important;
+    }
+    .desktop-view {
+        display: none !important;
+    }
+    .img-responsive {
+        max-width: 100%;
+        height: 100%;
+    }
+    .nav-right {
+       /* float: none !important;*/
+    }
+    a{/* text-decoration:none;*/}
+    /************
+                            Layouts
+                                    ****************/
+    .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+        width: auto !important;
+        float: none;
+    }
+    .pull-left10{ margin-left:0;}
+    /************** 
+                           HEAder
+                                           *******************/
+
+    .logo {
+        padding: 0px;
+        margin:  0 auto;
+        text-align:center;
+        float: none;
+    }
+
+    .navigation {
+        position: absolute;
+        left: -238px;  /***********    right value variate with width i.e.   38 points         **************/
+        top: 0;
+        bottom: 0;
+        height:0;
+        z-index: 1;
+
+        min-width: 238px;
+        -webkit-transition: left 0.5s ease-in-out;
+        -moz-transition: left 0.5s ease-in-out;
+        transition: left 0.5s ease-in-out;
+        font-size: 10px;
+    }
+    #top-nav {
+        float: none;
+        margin: 0;
+    }
+    .open {
+        left: 0 !important;
+        position:fixed;
+        height: 100%;
+
+    }
+    #top-nav-btn {
+        background:url("../images/icon/menu.png") no-repeat  10px 10px;
+        border-right: 1px solid #ee4699;
+        cursor: pointer;
+        height: 25px;
+        margin: 23px 0 0;
+        outline: medium none;
+        padding: 10px;
+        position: absolute;
+        right: -45px;
+        top: 10px;
+        transition: all 0.5s ease-in-out 0s;
+        width: 25px;
+        z-index: 10;
+    }
+    #top-nav-btn.active{
+        background-color: #ee4699;
+        background-position: -45px 10px;
+        border-radius: 0 15px 15px 0;
+        border-right: 0 solid #ee4699;
+    }
+
+    .stop{ overflow:hidden; overflow-scrolling: touch; }
+    .stop .overlay{  background:rgba(0,0, 0,0.5);
+
+                     height: 100%;
+                     left: 0;
+                     position: fixed;
+                     top: 0;
+                     width: 100%;
+                     z-index: 0;}
+
+
+
+    #top-nav ul {
+        margin: 0px 0 0 0px;
+    }
+    #top-nav li {
+        float: none;
+        padding: 5px 0 5px 20px !important;
+        background: none;
+        border-bottom: 2px solid #d23283;
+    }
+    #top-nav li a, #top-subnav li a {
+        width:100%  !important;
+        height: 100%;
+        text-decoration:none;
+    }        
+
+    #top-nav li .toggle a, #top-subnav li .toggle a{display: inline !important;}
+
+    #top-subnav li a, #top-subnav li a:hover, #top-nav li a, #top-nav li a:hover {
+        background: none !important;
+        font-family: 'Neutra';
+        font-size: 20px;
+        width: 100%;
+        color: #fff;
+        text-transform: uppercase;
+        text-indent: 0;
+        letter-spacing: 1px;
+    }
+    #top-subnav li a.find_a_store_nav {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .scroll-container{ overflow-y:scroll; height:100%; overflow-x:hidden ; -webkit-overflow-scrolling: touch;
+                       background: #e93992 url(../images/responsive/navigation_slidebar-bg.png) repeat-y;
+
+    }
+
+    #top-subnav {
+        position: static;
+    }
+    #top-subnav ul {
+        float: none;
+        margin: 30px 0 0 0px;
+        overflow: visible;
+    }
+    #top-subnav li {
+        float: none;
+        border-bottom: 2px solid #d23283;
+        padding: 5px 0 5px 20px;
+    }
+    #top-subnav li.home {
+        margin: 0px 0 0 0px;
+        border-bottom: none;
+    }
+    #top-subnav li.home a, #top-subnav li.home a:hover {
+        background-image: url(../images/responsive/header/nav_home.png) !important;
+        background-repeat: no-repeat !important;
+        text-indent: -9999px;
+        margin: 0px 0 10px 20px;
+        width: 100%;
+        height: 50px !important;
+    }
+    #top-subnav li.sign-up {
+        padding-left: 20px;
+    }
+
+
+    .toggle{ overflow:hidden;}
+
+
+    .Coffees{ display:inline-block !important;  float:left;}
+
+
+
+    .expand {
+        background: rgba(0, 0, 0, 0) url("../images/icon/open-close.png") no-repeat scroll 0 3px;
+        cursor: pointer;
+        display: inline-block;
+        float: right;
+        height: 20px;
+        margin-left: 10px;
+        padding-right: 15px;
+        padding-top: 3px;
+        text-indent: -999px;
+        transition: all 0.2s ease-in-out 0s;
+        width: 20px;
+    }
+
+    .expand.active {
+        background-position: 0 100%;
+    }
+    .sub-menu li{  border-top: 2px solid #d23283 !important;  border-bottom: 0px solid #d23283 !important;}
+
+    .sub-menu{ margin-top:5px !important; display:none; clear:both;}
+    .open-sub-menu{ display:block; }
+    
+    
+    #top-subnav, #top-nav{ display:none;}
+    
+    .navigation.open  #top-subnav, #top-nav{ display:block;}
+
+    .renderImage{ display: none;}
+    
+    .description .step{ overflow: auto; max-width:100%;}
+    
+    .results-content{-webkit-overflow-scrolling: touch;
+    border: 1px dashed #fff;
+    height: 400px;
+    margin: 10px 0;
+    overflow: auto;
+    width: 100% !important;
+    }
+    
+    .store-list {
+    
+   
+    margin-top: 10px;
+   
+    padding: 10px;
+}
+
+.sub-heading{ line-height:20px;}
+.input-field input.textbox, .input-field textarea.textbox {
+    width: auto !important;
+    min-width:250px;
+}
+
+#why-dob-message{ width:90% !important;}
+    /*********
+                            SEARCH 
+                                    ***********/
+    #top-subnav li.site-search {
+        width: 91%;
+        padding-bottom: 15px;
+    }
+    .search {
+        background: #fff;
+        margin-bottom: 5px;
+        position: relative;
+        width: 200px;
+    }
+    .search input[type="text"] {
+        border: 0 none;
+        color: #666;
+        /*font-size: 11px;*/
+        padding: 8px 6px;
+        display: inline-block;
+        height: 15px;
+        text-transform: uppercase;
+    }
+    .search input[type="button"] {
+        background: #fff url(../images/responsive/header/search-icon.png) no-repeat center center;
+        width: 15px;
+        height: 15px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 15px 12px;
+        display: inline-block;
+    }
+    /********
+                            find a store
+                                            **********/
+
+    #top-subnav li.store-finder p {
+        margin-bottom: 5px;
+    }
+    #top-subnav li.store-finder a, #top-subnav li.store-finder a:hover {
+        background: url(../images/responsive/header/nav_findgrocery.png) no-repeat scroll 27px center / 161px auto;
+        cursor: default;
+        height: 28px;
+        min-width: 161px;
+        width: auto;
+    }
+    ul.find-store-form {
+        margin-bottom: 8px;
+        margin-left: 7px;
+    }
+    .find-store-form select {
+        background: #fff;
+        visibility: visible;
+        width: 202px;
+        height:28px;
+    }
+    .find-store-form select, nav.expanded ul.find-store-form input[type="tel"] {
+        color: #666;
+        /*font-size: 11px;*/
+        padding: 6px 4px;
+        text-transform: uppercase;
+    }
+    .set_zip_box {
+        border: 0 none;
+        color: #666;
+        /*font-size: 11px;*/
+        padding: 8px 6px;
+        margin-right: 2px;
+        vertical-align: top;
+        width: 90px;
+    }
+    /************** 
+                         END OF   HEAder
+                                           *******************/
+
+
+    /**************
+                    Container
+                                    ****************/
+
+    .home-container {
+        z-index: 0;
+        min-height: auto;
+        width: 100%;
+    }
+    #home-container #rotator-container {
+        height: 200px;
+    }
+    .footerC {
+        z-index: 0;
+    }
+    #container, .footerC, #home-container #rotator-container {
+        width: 100% !important;
+        clear: both;
+    }
+    #rotator-container img {
+        width: 100%;
+        height: 100%;
+    }
+    .product, .description {
+        display: block;
+    }
+    /*********
+                    Inner CONTAINER
+                                    ***********/
+
+    .wrapper {
+        border: medium none;
+        margin: 0 20px 15px;
+        padding: 0;
+        width:auto;
+    }
+    .content-container {
+        background: none !important;
+        border-radius: 0;
+        padding: 0;
+        min-height: auto;
+    }
+    .introduction {
+        padding: 0;
+    }
+    .introduction p {
+        /*font-size: 0.8em;*/
+        line-height: 1.2727em;
+    }
+    .introduction-heading{ font-size:24px;}
+     .productBg .introduction-heading {
+        margin-bottom: 0;
+        background: #5d270a;
+        border: 3px solid #fff;
+        border-radius: 15px;
+        padding: 8px;
+        position: relative;
+        text-indent:0;
+        font-size:24px;
+        color: #fff !important;
+    }
+    .productBg .introduction-heading:after {
+        content: "\a";
+        position: absolute;
+        left: -8px;
+        right: -8px;
+        top: -8px;
+        bottom: -8px;
+        border: 1px solid #fff;
+        border-radius: 15px;
+    }
+    .pink-bg p, .pink-bg a, .pink-bg-image p, .pink-bg-image a{color: #532504!important;}
+    /*************
+                            Elements 
+                                            ****************/
+    .product li {
+        display: inline-block;
+        text-align: center;
+        margin-bottom:40px;
+    }
+
+    /**************
+                                    CALLOUT 
+                                            ********************/
+
+    .calloutcontent img {
+        width: 90%;
+        height: 100%;
+    }
+    .calloutcontent {
+        float: none;
+        display: block;
+        margin: 15px 0;
+        width: 100%;
+    }
+    .calloutcontent a, .calloutcontent a:nth-child(2n) {
+        float: none;
+        width:auto;
+    }
+    .callout-container {
+        padding-top: 10px;
+    }
+
+
+.product-detail-description h2{ min-height:auto;}
+
+
+    /********
+                    Product
+                            ***********/
+
+    .main-product .introduction p{ font-size:14px;}		
+    .main-product .introduction p span{ font-size:16px;}
+    /***********
+                                    sub product
+                                                    **************/
+
+    .productDetail, .product-image {
+        text-align: center;
+    }
+    .product-detail-description {
+        padding: 0;
+        margin: 0;
+float:none !important;
+    }
+    .product-detail-description p {
+        width: 90%;
+        margin: 0 15px;
+    }
+
+    .coffee-store-finder{ position:static; 
+                         clear:both;
+                         background: transparent  url(../images/responsive/find_a_store_bg.png) no-repeat scroll 0 0;  text-align: left;  width: 230px; margin:20px auto 0;}
+
+    .coffee-store-finder input[type="text"] {
+        /*font-size: 0.6em;*/
+        padding: 2px;
+        width: 80px;
+        display: inline-block;
+
+
+    }
+
+    .coffee-store-finder .search{  display: inline-block;
+                                   margin: 0; top:5px;
+                                   padding:0px 0 0 0;}
+
+    .seasonal .product-image {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .seasonal .product-detail-description h2{ color:#fff;}
+
+    .related-videos ul li{ min-height:180px;}
+
+    /*************
+                                    FOOTER
+                                            ******************/
+
+    /******** font defination ************/
+
+    .footerC {
+
+        padding-top: 10px;
+        /*font-size:12px;*/
+    }
+    #footercopy, #footer-logo {
+        float: none;
+    }
+    #footercopy {
+        width: 90%;
+        /*font-size:12px;*/
+        margin:0px 15px 0 15px;
+    }
+    #footercopy li, #footercopy p {
+        /*font-size:12px;*/
+    }
+    #footer-logo {
+        text-align: center;
+    }
+    /*************
+                            dunkin store
+                                            **************/
+    .dunkin-store .product {
+        text-align: center;
+    }
+    .dunkin-store label {
+        /*font-size: 0.8em;*/
+    }
+    .dunkin-store .description p, .dunkin-store .introduction p  {
+        /* font-size: 0.7em;*/
+    }
+    /*********
+                            how to brew
+                                            ************/
+
+    .numbers-new li > p {
+        width: auto;
+        float: none;
+    }
+    .brew-infographic { background:#fff; border-radius:10px;}
+    .brew-infographic > img {
+        z-index: 0;
+    }
+    /********
+                    calculator
+                                    ***********/
+
+    .cup-calculator {
+        background: url(../images/responsive/Calculator_Mobile.png) no-repeat;
+        -webkit-box-shadow: 0 0 0 -0 rgba(0,0,0,.4);
+        box-shadow: 0 0 0 -0 rgba(0,0,0,.4);
+        padding: 25px 35px 2px;
+        right: 0;
+        width: 210px;
+         margin: 0 auto 15px;
+        height:376px;
+    }
+    .cup-calculator h3 {
+        /*font-size: 1.25em;*/
+    }
+    .cup-calculator p {
+        /*font-size: 14px;*/
+    }
+    .cup-calculator .cups-input {
+        margin: 10px 25px 55px;
+    }
+    .cup-calculator i {
+        /*font-size: 12px;*/
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+    }
+
+    /********
+                how to brew image 
+                           ************/
+
+
+    .brew-infographic .share-buttons {
+
+        right: 5px;
+        top: 5px;
+
+    }
+
+
+    /**********
+                    about us
+                            ************/
+
+    .aboutus p, .aboutus a {
+        color: #532504;
+        /*font-size: 0.8em;*/
+    }
+    /**********
+                    sign up
+                            *********/
+
+    .signup .introduction {
+        padding: 0 5px;
+    }
+    /**********
+            faq
+                            *********/
+
+    #faqs h2 {
+
+        /*font-size: 0.9em;*/
+    }
+
+    /**********
+                    contact us
+                            ***********/
+    .contact-info{/*font-size: 0.8em;*/}
+
+    /******
+            accordian
+                    **********/
+
+    .accordian {
+        /* font-size: 0.8em;*/
+    }		
+    .accordian h3{/* font-size: 0.8em; */}
+    .accordian div{/*font-size: 1em;*/ }
+
+
+    /***********
+                    dunkin store
+                                    ***********/
+    .dunkin-store .product li{ margin-right:0;}
+
+
+
+    /******* css - 29/jan/2016  ******/
+
+    .img-placeholder, .seasonal .img-placeholder{ position:static;  
+margin:auto;
+display: block;margin-top: 45px;}
+
+    .img-placeholder img, .seasonal .img-placeholder img {
+        height: 300px;
+        margin: 20px 0 0;
+    }
+    .btnback {
+        background: rgba(0, 0, 0, 0) url("../images/products/buttons/mobile-button_back-bg.png") no-repeat scroll 0 0;
+        height: 58px;
+        left: -23px;
+        position: absolute;
+        top: 57px;
+        width: 50px;
+    }
+    .btnback:hover {
+        background-position: 0 -58px;
+    }
+
+    .bv-rating-stars, .seasonal .bv-rating-stars{position: static;     margin-bottom: 20px;}
+
+
+
+
+    .seasonal-main .introduction-heading {
+        font-size: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .product-description-text, .seasonal-main .product-description-text{ width:90%;}
+
+
+    .search-container{width:70%;}
+    .result-count{ padding-left: 15px;}
+    .search-result a{ text-decoration:underline;}
+
+    .navigation.close #top-subnav{ position: absolute;}
+    .navigation.open #top-subnav{ position: static;}
+
+
+    .description-scroll{height:auto;}
+
+
+    .no-background{ background:none;}
+    
+    
+        .footer{text-align:center; width:auto;   padding: 2em 15px; background:#fff; clear:both;}
+    .footer-links, .footer-links li, .footer-description, .footer-links li{ float:none; width:100%; display:block;}
+    .footer-image{ position:static; padding-top:10px; float:none;}
+
+
+
+}
+
+@media screen and (max-width:899px)
+{
+  .description-scroll{height: auto !important;
+                    overflow: hidden;}
+  .bazare{ margin:auto;}
+ .bazarewrapper{ background:#fff; width:auto; margin:  15px; border-radius: 10px;}
+ 
+ .seasonal .description-scroll p{color: #532504;}
+ 
+}
+
+@media screen and (max-width:660px) {
+    /******************
+                           postcard
+                                   *********/
+
+    #user-message {
+
+        width: 250px;
+    }
+    #facebook-post, #tweet-button {
+
+        left: 205px;
+
+    }
+    #vertical-divider{ display:none;}
+    #stamp{ display:none; }
+
+    #back-text {
+        display:none;
+    }
+
+
+
+
+    .product-listing li{ margin-bottom:40px;}
+    .bazare , .product-listing li  .bazare-product, .seasonal-main .product-listing li  .bazare-product{ position:static;  
+                                                                                                         /* background: #fff;*/
+                                                                                                         padding: 5px;
+                                                                                                         display: block;
+                                                                                                         /*  border-radius: 10px;*/
+                                                                                                         margin: auto auto 20px;}
+
+   
+    .brew-infographic.mobile-view img{ padding-top:25px;}
+
+}
+
+
+@media screen and (max-width: 640px){
+
+#postcard-image, #user-message{float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+    position: static;
+    width: 42%;}
+
+#facebook-post, #tweet-button, #facebook-success, #facebook-posting {
+clear: both;
+    float: right;
+    margin-right: 3%;
+    margin-top:2%;
+    position: static;
+    width: auto;}
+
+#postcard-image, #user-message{margin-top:10%;}
+
+    .panel {
+        bottom: 0;
+    
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    top: 5%;
+    width: 90%;
+    }
+    .panel #front , .panel #back, .panel #front.postcard-seasonal {
+               background-position: center center !important;
+    background-size: contain !important;
+         height: 100%;
+    width: 100%;
+    }
+
+.panel #front{ background-repeat: no-repeat !important;}
+
+.inputs select, .input-field select {
+    width: 192px ; 
+}
+
+.input-field input.textbox, .input-field textarea.textbox {
+    width: 180px !important ; min-width:150px;
+}
+}
+@media screen and (max-width: 640px) and (orientation: portrait)
+{
+ #user-message{width: 90%;}
+#postcard-image{ width: auto;}
+#postcard-image{margin-top:15%;}
+
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape)
+{
+
+.panel {height: 90%;}
+
+}
+
+
+@media screen and (max-width:500px) {
+
+
+
+    /************
+                            Layouts
+                                    ****************/
+    .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+        width: 100% !important;
+
+        float: none;
+    }
+
+
+    /******* font defination ******/
+
+
+    /******
+            product
+                    *************/
+
+.main-product .product-container {
+    padding: 16px 0 0;
+}
+
+    .product li {
+        display: inline-block;
+        margin: auto auto 40px;
+        text-align: center;
+    }
+
+    /*.product .product-button{ height: 24px;
+        margin: 0 auto;
+        padding:22px 20px;
+left:0 !important;
+            display:block;
+        text-align: center;}*/
+
+    .product .product-button.big {
+        height: 34px;
+        padding: 15px 10px;
+        width: 140px;
+    }
+
+
+    .product-button:hover {
+        background-position: 0 -62px;
+    }
+
+    .product .product-image {
+        display: block;
+        margin: 0 auto;
+    }
+    /*********
+                            how to brew
+                                            ************/
+
+    .full-container {
+        margin: 20px auto;
+        width:100%;
+    }
+    .numbers-new li > span {
+        margin-bottom: 20px;
+    }
+    /********
+                    Promotion
+                                    ***********/
+
+    .promotion {
+        /* font-size: 0.8em;*/
+    }
+
+    .promotion li {
+
+        overflow: hidden;
+    }
+    .promotion .promotional-image, .promotion .promotion-text {
+        float: none;
+        width: 100%;
+        display:block;
+    }
+    /**********
+                    about us
+                            ************/		
+
+    .about.promotion .promotional-image, .about.promotion .promotion-text {
+        display: block;
+        width: 100%;
+    }
+    /**************
+                    commercial
+                                    ************/
+
+    .commercial li {
+        overflow: hidden;
+    }				
+    .commercial .commercial-video, .commercial .commercial-text {
+        display: block;
+        width: 100%;
+    }
+    .commercial .commercial-text {
+        padding-top: 2%;
+    }
+    .related-videos ul li {
+        float: none;
+        margin-right: 0;
+        padding: 10px 2px 10px 0;
+        display: block;
+        max-width:300px;
+    }
+    .related-videos ul li a {
+        display: block;
+        text-decoration:none;
+    }
+   
+
+    /********* Slider ********/
+
+
+
+}
+/*******   slider ********/
+
+@media screen and (max-width: 1010px){
+    .share-container img{ height:38px;}
+}
+
+@media screen and (max-width: 660px){
+    .share-container img{ height:28px;}
+}
+
+@media screen and (max-width: 380px){
+    .share-container {
+        left: 5%;
+    }
+    .share-container img{ height:25px;}
+
+.img-placeholder img, .seasonal .img-placeholder img {
+    height: auto;
+    margin: 20px 0 0;
+}
+}
+
+
+/**
+Brew For Bold Start
+*/
+
+@media screen and (max-width:800px){
+ .figure-container	{ padding:10px 0;}
+ .brewed-figure{ width:100%;}
+}
+
+@media  screen and (max-width:618px){
+	.slider-container {margin:20px;}
+	.brewed-figure .img, .brewed-figure figcaption{ display:block; width:100%; float:none;}
+	/*.brewed-figure .coffee-store-finder .search{ top:5px;}*/
+	
+}
+/**
+Brew For Bold End
+*/
